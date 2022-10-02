@@ -1,104 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
-
 .body {
     text-align: center;
 
 }
 
-
 .nav-bar {
-
-
     height: 65px;
     margin-left: 52px;
     margin-top: 44px;
     margin-right: 52px;
-
-
     background: #FFFFFF;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.11);
     border-radius: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
-.Logo {
+.nav_container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar ul {
+    display: inline-block;
+    padding-left: 0;
+}
+
+.nav-bar li {
+    display: inline-block;
+}
+
+.nav-bar a {
+
+    text-decoration: none;
+    margin-right: 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    /* or 85% */
+
+    color: #000000;
+}
+
+.auth_btn {
+    margin-right: 32px;
+}
+
+
+.logo {
     width: 32.96px;
     height: 42.95px;
-    margin-top: 10px;
-    margin-left: 26px;
+    margin-left: 33px;
+    margin-right: 53px;
 
-
-}
-
-
-.tools {
-
-    text-decoration: none;
-    margin-left: 100px;
-    margin-right: 40px;
-    margin-top: 26px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 11px;
-    /* or 85% */
-
-
-    color: #000000;
-}
-
-.requests {
-    text-decoration: none;
-    margin-left: 80px;
-    margin-right: 40px;
-    margin-top: 26;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 11px;
-    /* or 85% */
-
-
-    color: #000000;
-}
-
-.users {
-
-    text-decoration: none;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 26;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 11px;
-    /* or 85% */
-
-
-    color: #000000;
-}
-
-.messages {
-    text-decoration: none;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 26;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 11px;
-    /* or 85% */
-
-
-    color: #000000;
 }
 
 .nav-btl {
@@ -123,23 +82,11 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .divo {
 
     margin-left: 121px;
     margin-top: 129px;
+    margin-right: 141px;
 
 
     font-family: 'Inter', sans-serif;
@@ -155,9 +102,10 @@
 }
 
 .imgtwo {
-
+    width: 957px;
+    height: 454px;
     margin-left: 121px;
-    margin-top: 41px;
+    margin-top: 0;
     margin-right: 121px;
 }
 
@@ -175,9 +123,10 @@
     line-height: 40px;
     /* or 167% */
 
-    letter-spacing: 4.3px;
+    letter-spacing: 1px;
 
     color: #000000;
+
 }
 
 .firstcolor {
@@ -196,10 +145,12 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 40px;
+    /* or 167% */
 
-    letter-spacing: 4.3px;
+    letter-spacing: 1px;
 
     color: #000000;
+
 
 }
 
@@ -210,15 +161,16 @@
     margin-right: 121px;
 
     font-family: 'Inter';
-    font-style: italic;
+    font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 40px;
-    /* or 155% */
+    /* or 167% */
 
-    letter-spacing: 1.4px;
+    letter-spacing: 1px;
 
     color: #000000;
+
 }
 
 .hthree {
@@ -306,10 +258,12 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 40px;
+    /* or 167% */
 
-    letter-spacing: 4.3px;
+    letter-spacing: 1px;
 
     color: #000000;
+
 
 }
 
@@ -324,8 +278,9 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 40px;
+    /* or 167% */
 
-    letter-spacing: 4.3px;
+    letter-spacing: 1px;
 
     color: #000000;
 
@@ -342,10 +297,12 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 40px;
+    /* or 167% */
 
-    letter-spacing: 4.3px;
+    letter-spacing: 1px;
 
     color: #000000;
+
 
 }
 
@@ -360,10 +317,12 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 40px;
+    /* or 167% */
 
-    letter-spacing: 4.3px;
+    letter-spacing: 1px;
 
     color: #000000;
+
 
 }
 
@@ -378,10 +337,12 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 40px;
+    /* or 167% */
 
-    letter-spacing: 4.3px;
+    letter-spacing: 1px;
 
     color: #000000;
+
 
 
 
@@ -432,7 +393,7 @@
     left: 0%;
     right: 0%;
     margin-top: 211.94px;
-    margin-bottom: 89.06px;
+    margin-bottom: 0;
 
     border: 1px solid #E30C40;
 
@@ -442,41 +403,17 @@
 
 
     margin-left: 184.39px;
-    margin-top: -200px;
+    margin-top: 23.31px;
+    margin-right: 56.16px;
 
 }
 
-
-.div10 {
-
-    margin-left: 32.46px;
-    margin-top: -20px;
-
-
-
+.bottomlist a {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 12px;
-    line-height: 20px;
-    /* or 167% */
-
-
-    color: #E30C40;
-
-    opacity: 0.75;
-}
-
-.div11 {
-    margin-left: 72.2px;
-    margin-top: -18.5px;
-
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 20px;
+    margin-right: 26.64px;
     /* or 167% */
 
 
@@ -485,61 +422,18 @@
     opacity: 0.75;
 }
 
-
-.div12 {
-    margin-left: 80.63px;
-    margin-top: -18.5px;
-
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 20px;
-    /* or 167% */
+.bottomlist ul {
+    display: inline-block;
+    padding-left: 0;
+    margin-left: 56.16px;
+    margin-top: 34.96px;
 
 
-    color: #000000;
-
-    opacity: 0.75;
 }
 
-
-.div13 {
-    margin-left: 80.88px;
-    margin-top: -18.5px;
-
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 20px;
-    /* or 167% */
-
-
-    color: #000000;
-
-    opacity: 0.75;
-}
-
-
-.div14 {
-    margin-left: 82.82px;
-    margin-top: -18.5px;
-
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 20px;
-    /* or 167% */
-
-
-    color: #000000;
-
-    opacity: 0.75;
+.bottomlist li {
+    display: inline-block;
+    justify-content: space-between;
 }
 
 .div19 {
@@ -554,18 +448,12 @@
     right: 16.56%
 }
 
-.elips {
-    position: absolute;
-    right: 110px;
-    bottom: -2825px;
-    width: 60px;
-
-
-}
-
 .img20 {
-    float: right;
     margin-right: 218.15px;
+    float: right;
+    margin-left: 20.29px;
+    margin-top: 27.62px;
+
 }
 
 .img21 {
