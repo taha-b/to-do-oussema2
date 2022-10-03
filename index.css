@@ -49,6 +49,33 @@
 
 .auth_btn {
     margin-right: 32px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.primary_btn {
+    width: 69px;
+    height: 39px;
+    border: 1px solid #EBEBEB;
+    background-color: #FFFFFF;
+    color: #E30C40;
+    border-radius: 4px;
+}
+
+.secondary_btn {
+
+    background: #E30C40;
+    border-radius: 4px;
+    width: 78px;
+    height: 39px;
+    color: #FFFFFF;
+
+    margin-left: 17px;
+    border: none;
+
 }
 
 
@@ -161,13 +188,13 @@
     margin-right: 121px;
 
     font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 40px;
-    /* or 167% */
+    font-style: italic;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 34px;
+    /* or 155% */
 
-    letter-spacing: 1px;
+    letter-spacing: 0.1px;
 
     color: #000000;
 
@@ -384,16 +411,13 @@
     border-radius: 50%;
 }
 
-
-
-
-
 #horizontal-line {
 
     left: 0%;
     right: 0%;
     margin-top: 211.94px;
     margin-bottom: 0;
+    padding-bottom: 0;
 
     border: 1px solid #E30C40;
 
@@ -408,13 +432,18 @@
 
 }
 
+.bottomlist {
+    align-items: center;
+    display: flex;
+}
+
 .bottomlist a {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     margin-right: 26.64px;
-    /* or 167% */
+
 
 
     color: #000000;
@@ -423,9 +452,9 @@
 }
 
 .bottomlist ul {
-    display: inline-block;
+
     padding-left: 0;
-    margin-left: 56.16px;
+    margin-left: 0;
     margin-top: 34.96px;
 
 
@@ -436,6 +465,33 @@
     justify-content: space-between;
 }
 
+.img20 {
+    margin-right: 218.15px;
+    float: right;
+    margin-top: -50px;
+
+
+
+}
+
+.img21 {
+    float: right;
+    margin-right: 252.12px;
+    margin-top: -50px;
+}
+
+.img22 {
+    float: right;
+    margin-right: 287.02px;
+    margin-top: -50px;
+}
+
+.img23 {
+    float: right;
+    margin-right: 322.29px;
+    margin-top: -50px;
+}
+
 .div19 {
 
     font-family: 'Inter';
@@ -443,30 +499,22 @@
     font-weight: 400;
     font-size: 10px;
     line-height: 20px;
+
+    margin-top: -15px;
+    float: right;
+    margin-right: 197.54px;
+}
+
+.lastbtn {
     position: absolute;
-    margin-top: 11.65px;
-    right: 16.56%
-}
+    width: 43.82px;
+    height: 43.3px;
+    border-radius: 50%;
+    right: 149.02px;
+    margin-top: -93px;
+    background-image: url(img/Up\ arrow.png);
+    background-size: contain;
+    border: none;
 
-.img20 {
-    margin-right: 218.15px;
-    float: right;
-    margin-left: 20.29px;
-    margin-top: 27.62px;
 
-}
-
-.img21 {
-    float: right;
-    margin-right: 22.13px;
-}
-
-.img22 {
-    float: right;
-    margin-right: 22.13px
-}
-
-.img23 {
-    float: right;
-    margin-right: 22.13px;
 }
