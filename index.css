@@ -54,6 +54,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
+    display: inline;
 }
 
 .primary_btn {
@@ -98,14 +99,6 @@
 
 
     color: #E30C40;
-}
-
-
-.nav-btn {
-    background: #E30C40;
-    color: #FFFFFF;
-    margin-left: 999px;
-    margin-top: -90px;
 }
 
 
